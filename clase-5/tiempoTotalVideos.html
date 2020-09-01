@@ -1,0 +1,29 @@
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tarea clase 5 n° 3</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+
+    <header>
+    <h1>Calcular tiempo total del curso</h1>
+    <h2>Por favor ingresa el tiempo de duracion de cada video:</h2>
+    </header>
+
+    <form>
+        <label id='videos-ingresados'></label>
+        <input id="horas-duracion" type="number" placeholder="Ingresa las horas de duracion del video" />
+        <input id="minutos-duracion" type="nummber" placeholder="Ingresa las minutos de duracion del video"/>
+        <input id="segundos-duracion" type="number" placeholder="Ingresa las segundos de duracion del video"/>
+        <button class="reset" type="reset" id="boton-agregar">Agregar Video</button>
+        <button id="boton-calcularTiempoTotal">Calcular Tiempo Total</button>
+    </form>
+    <strong id="duracionTotalVideos"></strong>
+    <script src='tiempoTotalVideos.js'></script>
+</body>
+</html>

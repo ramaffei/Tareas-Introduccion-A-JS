@@ -1,0 +1,52 @@
+body{
+    width: 100%;
+    align-items: center;
+    background: #87abee85;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header {
+    box-sizing: border-box;
+    flex: 0 1 auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: Avenir, 'Source Sans Pro', sans-serif;
+    font-size: 4em;
+    margin: 2%;
+}
+form {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%; 
+    border: 1%;
+    border-color: black; 
+}
+input{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-top: 1em;
+    width: 100%;
+}
+button{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-top: 1em;
+    width: 100%;
+}
+#boton-ingresar {
+    background-color: indigo;
+    border: none;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.oculto {
+    display: none;
+}

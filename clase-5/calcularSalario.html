@@ -8,12 +8,15 @@
     <title>Calcular Salario Mensual</title>
 </head>
 <body>
-
+    <h3>Ingresa tu salario anual para calcular tu salario mensual</h3>
     <div>
         <form id="calcularSalario" onsubmit="return false;">
-            <input type="number" placeholder="Ingresa tu salario Anual" id="salarioAnual"/>
-            <input type="text" disabled id="salarioMensual"/>
-            <input type="submit" value="Calcular" id="botonCalcular"/>
+            <label>Salario anual: </label>
+            <input type="number" placeholder="Ingresa tu salario Anual" id="salario-Anual"/>
+            <label>Salario mensual: </label>
+            <input type="text" disabled id="salario-Mensual"/>
+            <button id="boton-Calcular">Calcular</button>
+            <input type="reset" value="Limpiar"/>
         </form>
     </div>
 

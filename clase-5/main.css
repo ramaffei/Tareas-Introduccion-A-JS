@@ -72,3 +72,17 @@ button{
 strong{
     margin-top: 1em;
 }
+
+#listado-aleatorio{
+    
+    width: 30%;
+}
+#resultados{
+    width: 30%;
+}
+
+main{
+    display: flex;
+    margin-left: 20%;
+    width: 100%;
+}
